@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dashboard Perkuliahan - Prototype</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <h1>Dashboard Perkuliahan (Prototype)</h1>
+    <p>Resources folder: templates CSV + generator script. Use generated XLSX for Google Sheets import.</p>
+  </header>
+  <main>
+    <section id="uploader">
+      <h2>Template Resources</h2>
+      <p>Files in resources/templates/csv/ — download and open in Excel or generate .xlsx with the provided script.</p>
+      <ul>
+        <li><a href="/resources/templates/csv/Students.csv">Students.csv</a></li>
+        <li><a href="/resources/templates/csv/Classes.csv">Classes.csv</a></li>
+        <li><a href="/resources/templates/csv/Sessions.csv">Sessions.csv</a></li>
+        <li><a href="/resources/templates/csv/Tasks.csv">Tasks.csv</a></li>
+        <li><a href="/resources/templates/csv/Grades.csv">Grades.csv</a></li>
+        <li><a href="/resources/templates/csv/Attendance.csv">Attendance.csv</a></li>
+      </ul>
+    </section>
+
+    <section id="preview">
+      <h2>Preview sample data</h2>
+      <div id="preview-area">Memuat contoh preview...</div>
+    </section>
+  </main>
+  <script src="./app.js"></script>
+</body>
+</html>
